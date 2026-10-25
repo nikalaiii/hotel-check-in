@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; frame-src 'self' about:; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Willa Check-in</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="renderer.mjs"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">W</span><div>Willa<span>ODKRYWCÓW</span></div></div>
+    <div class="sidebar-label">RECEPCJA</div>
+    <div class="nav-active"><span>▤</span> Dokumenty meldunkowe</div>
+    <div class="sidebar-note"><span class="status-dot"></span> Praca lokalna<p>Pliki pozostają na tym komputerze. Bez konta i bez połączenia z chmurą.</p></div>
+    <div class="sidebar-bottom"><b>Check-in</b><span>Wersja próbna 0.1.0</span><button id="help" class="help-button">Jak to działa?</button></div>
+  </aside>
+  <main>
+    <header><div><p class="eyebrow">SPOKOJNIE PRZYGOTUJ KOLEJNY PRZYJAZD</p><h1>Dokumenty dla gości</h1><p class="subtitle">Dodaj potwierdzenia, sprawdź dane i przygotuj komplet do druku.</p></div><div class="header-badge">PDF → gotowa karta</div></header>
+    <div class="workflow"><span class="step active"><b>1</b> Dodaj PDF</span><i></i><span class="step"><b>2</b> Sprawdź dane</span><i></i><span class="step"><b>3</b> Zapisz lub drukuj</span></div>
+    <section id="drop-zone" class="drop-zone" tabindex="0" role="button" aria-label="Dodaj potwierdzenia PDF">
+      <div class="upload-symbol">↥</div><div><h2>Przeciągnij potwierdzenia rezerwacji</h2><p>Możesz dodać kilka plików PDF naraz · maks. 25 MB na plik</p></div><button id="choose-files" class="button secondary">Wybierz pliki</button>
+    </section>
+    <div id="notice" class="notice hidden" role="status" aria-live="polite"></div>
+    <div class="workspace">
+      <section class="panel reservations"><div class="panel-heading"><h2>Rezerwacje <span id="record-count" class="counter">0</span></h2><button id="add-manual" class="text-button">+ Dodaj ręcznie</button></div><div class="list-tools"><label><input type="checkbox" id="select-all" checked> Wybierz wszystkie</label><button id="clear-all" class="text-button muted">Wyczyść</button></div><div id="record-list" class="record-list"></div><div id="empty-list" class="empty-list"><span>▤</span><b>Jeszcze nie ma rezerwacji</b><p>Dodaj PDF albo utwórz pusty wpis.</p></div></section>
+      <section class="panel editor"><div class="panel-heading"><h2>Dane gościa</h2><span id="edit-badge" class="small-label">Możesz je poprawić</span></div><div id="editor-empty" class="empty-editor"><span>✎</span><p>Tutaj sprawdzisz i uzupełnisz dane wybranej rezerwacji.</p></div><form id="guest-form" class="hidden" autocomplete="off"><div class="form-content">
+        <div id="source-label" class="source-label"></div><div id="warnings" class="warnings"></div>
+        <div class="form-grid">
+          <label class="wide">Imię i nazwisko<input name="name" maxlength="120" placeholder="Pozostaw puste, jeśli nieznane"></label>
+          <label>Przyjazd<input name="arrival" type="date"></label><label>Wyjazd<input name="departure" type="date"></label>
+          <label>Liczba gości<input name="guestCount" type="number" min="1" max="999" step="1" placeholder="—"></label><label>Numer pokoju<input name="room" maxlength="30" placeholder="—"></label>
+          <label>Cena całego pobytu · PLN<input name="price" type="number" min="0" step="0.01" placeholder="—"></label><label>Piętro<select name="floor"><option value="">Nie podano</option><option value="0">Parter</option><option value="1">I piętro</option><option value="2">II piętro</option></select></label>
+          <label class="wide">Numer telefonu<input name="phone" maxlength="40" placeholder="np. +420 123 456 789"></label>
+          <label class="wide">Adres e-mail<input name="email" type="email" maxlength="120" placeholder="—"></label>
+        </div>
+        <div class="form-divider"></div><div class="section-title">Język dokumentów</div><div class="language-control"><select name="languageMode"><option value="auto">Automatycznie z telefonu</option><option value="manual">Wybieram ręcznie</option></select><select name="language"><option value="pl">Polski · PL</option><option value="cze">Česky · CZE</option><option value="deu">Deutsch · DEU</option><option value="eng">English · ENG</option></select></div><p id="language-hint" class="hint"></p>
+        <label class="variant-label">Wariant informacji dla gościa<select name="infoVariant"><option value="standard">Standardowy</option><option value="no-dinner">Bez obiadokolacji</option><option value="no-restaurant">Bez obiadokolacji i restauracji</option></select></label><p id="template-hint" class="hint"></p>
+        <details class="extra-fields"><summary>Pozostałe pola i tekst źródłowy</summary><div class="form-grid"><label class="wide">Kraj zamieszkania<input name="country" maxlength="80" placeholder="—"></label><label class="wide">Seria i numer dokumentu<input name="identity" maxlength="60" placeholder="—"></label><label class="wide">Numer rejestracyjny samochodu<input name="car" maxlength="30" placeholder="—"></label></div><pre id="raw-text"></pre></details>
+      </div></form></section>
+      <section class="panel preview"><div class="panel-heading"><h2>Podgląd dokumentów</h2><span id="page-count" class="small-label">—</span></div><div class="preview-toolbar"><span>Wybrana rezerwacja · A4</span><button id="refresh-preview" class="text-button">Odśwież</button></div><div class="preview-area"><div id="preview-empty" class="empty-editor"><span>▧</span><p>Gotowe dokumenty pojawią się tutaj.</p></div><iframe id="preview-frame" title="Podgląd gotowych dokumentów" sandbox="allow-same-origin" class="hidden"></iframe></div></section>
+    </div>
+    <footer class="output-bar"><div class="output-options"><span class="section-title">W KOMPLECIE</span><label><input id="option-card" type="checkbox" checked> Karta gościa</label><label><input id="option-info" type="checkbox"> Informacje dla gościa</label><label><input id="option-privacy" type="checkbox"> Dane osobowe</label></div><div class="output-actions"><span id="selection-count">Nie wybrano rezerwacji</span><select id="printer" aria-label="Drukarka"><option value="">Drukarka systemowa</option></select><button id="save-pdf" class="button secondary" disabled>Zapisz PDF</button><button id="print" class="button primary" disabled>Drukuj wybrane</button></div></footer>
+  </main>
+  <dialog id="help-dialog"><h2>Od PDF do gotowych dokumentów</h2><ol><li>Dodaj potwierdzenia PDF lub pusty wpis.</li><li>Sprawdź dane. Puste pola nie będą uzupełniane domysłami.</li><li>Wybierz dokumenty na dolnym pasku.</li><li>Zapisz wspólny PDF lub wydrukuj wybrane rezerwacje.</li></ol><p>Język: +48 → PL, +420 → CZE, +49 → DEU, inne rozpoznane kody → ENG. Brak kodu, brak telefonu lub nierozpoznany kod → PL. Możesz wybrać język ręcznie.</p><p>Każdy PDF oznacza jedną rezerwację. Rezerwacje kilku pokoi rozdziel ręcznie. Skanowane PDF nie mają automatycznego rozpoznawania tekstu.</p><p>Informacje dla gościa: PL, CZE, DEU. Pełna klauzula danych osobowych: CZE, DEU, ENG. Brakujące szablony są pomijane z ostrzeżeniem. Przed wydrukiem sprawdź aktualność treści hotelowych.</p><p>Program nie zapisuje listy gości między uruchomieniami. Zapisane przez Ciebie PDF pozostają w wybranym folderze.</p><form method="dialog"><button class="button primary">Rozumiem</button></form></dialog>
+</body>
+</html>

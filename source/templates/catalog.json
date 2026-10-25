@@ -1,0 +1,667 @@
+{
+  "cards": {
+    "pl": {
+      "file": "card-pl.svg",
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "fields": [
+        {
+          "field": "name",
+          "x": 217.7,
+          "y": 198.75,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "country",
+          "x": 217.7,
+          "y": 223.05,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "identity",
+          "x": 217.7,
+          "y": 247.35,
+          "width": 321.3,
+          "height": 24.4,
+          "kind": "cell"
+        },
+        {
+          "field": "car",
+          "x": 217.7,
+          "y": 275.75,
+          "width": 321.3,
+          "height": 22.6,
+          "kind": "cell"
+        },
+        {
+          "field": "email",
+          "x": 217.7,
+          "y": 302.35,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "phone",
+          "x": 217.7,
+          "y": 326.65,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "arrival",
+          "x": 117.45700073242188,
+          "y": 640.6798095703125,
+          "width": 87.82205200195312,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "departure",
+          "x": 271.2760314941406,
+          "y": 640.6798095703125,
+          "width": 87.86703491210938,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "room",
+          "x": 117.83499145507812,
+          "y": 660.7297973632812,
+          "width": 87.82205200195312,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "price",
+          "x": 118.78001403808594,
+          "y": 680.77978515625,
+          "width": 87.82205200195312,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "guestCount",
+          "x": 144.51100158691406,
+          "y": 700.829833984375,
+          "width": 67.88703918457031,
+          "height": 14,
+          "kind": "line"
+        }
+      ],
+      "source": "ZAMELDOWANIE - Karta Gościa z akceptacją regulaminu i rodo + SOM PL_104035.docx"
+    },
+    "cze": {
+      "file": "card-cze.svg",
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "fields": [
+        {
+          "field": "name",
+          "x": 217.7,
+          "y": 198.75,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "country",
+          "x": 217.7,
+          "y": 223.05,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "identity",
+          "x": 217.7,
+          "y": 247.35,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "car",
+          "x": 217.7,
+          "y": 271.65,
+          "width": 321.3,
+          "height": 22.6,
+          "kind": "cell"
+        },
+        {
+          "field": "email",
+          "x": 217.7,
+          "y": 298.25,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "phone",
+          "x": 217.7,
+          "y": 322.55,
+          "width": 321.3,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "arrival",
+          "x": 119.91400146484375,
+          "y": 654.6798095703125,
+          "width": 87.86705017089844,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "departure",
+          "x": 282.0040283203125,
+          "y": 654.6798095703125,
+          "width": 87.822021484375,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "room",
+          "x": 107.80901336669922,
+          "y": 674.7297973632812,
+          "width": 87.8670425415039,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "price",
+          "x": 118.78001403808594,
+          "y": 694.77978515625,
+          "width": 87.82205200195312,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "guestCount",
+          "x": 136.1929931640625,
+          "y": 714.8297729492188,
+          "width": 67.842041015625,
+          "height": 14,
+          "kind": "line"
+        }
+      ],
+      "source": "ZAMELDOWANIE - Karta Gościa z akceptacją regulaminu i rodo + SOM CZE_104031.docx"
+    },
+    "eng": {
+      "file": "card-eng.svg",
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "fields": [
+        {
+          "field": "name",
+          "x": 211.1,
+          "y": 198.75,
+          "width": 327.9,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "country",
+          "x": 211.1,
+          "y": 223.05,
+          "width": 327.9,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "identity",
+          "x": 211.1,
+          "y": 247.35,
+          "width": 327.9,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "car",
+          "x": 211.1,
+          "y": 271.65,
+          "width": 327.9,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "email",
+          "x": 211.1,
+          "y": 295.95,
+          "width": 327.9,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "phone",
+          "x": 211.1,
+          "y": 320.25,
+          "width": 327.9,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "arrival",
+          "x": 90.69999694824219,
+          "y": 624.7297973632812,
+          "width": 87.82205200195312,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "departure",
+          "x": 232.35000610351562,
+          "y": 624.7297973632812,
+          "width": 99.81002807617188,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "room",
+          "x": 116.1500015258789,
+          "y": 644.77978515625,
+          "width": 107.7570571899414,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "price",
+          "x": 120.69999694824219,
+          "y": 664.829833984375,
+          "width": 103.80606079101562,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "guestCount",
+          "x": 189.14999389648438,
+          "y": 684.8797607421875,
+          "width": 47.90702819824219,
+          "height": 14,
+          "kind": "line"
+        }
+      ],
+      "source": "ZAMELDOWANIE - Karta Gościa z akceptacją regulaminu i rodo ENG + SOM_104043.docx"
+    },
+    "deu": {
+      "file": "card-deu.svg",
+      "width": 595.303955078125,
+      "height": 841.8897705078125,
+      "fields": [
+        {
+          "field": "name",
+          "x": 218.2,
+          "y": 174.65,
+          "width": 320.8,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "country",
+          "x": 218.2,
+          "y": 198.95,
+          "width": 320.8,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "identity",
+          "x": 218.2,
+          "y": 223.25,
+          "width": 320.8,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "car",
+          "x": 218.2,
+          "y": 247.55,
+          "width": 320.8,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "email",
+          "x": 218.2,
+          "y": 271.85,
+          "width": 320.8,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "phone",
+          "x": 218.2,
+          "y": 296.15,
+          "width": 320.8,
+          "height": 20.3,
+          "kind": "cell"
+        },
+        {
+          "field": "arrival",
+          "x": 86.8499984741211,
+          "y": 597.7297973632812,
+          "width": 99.81005096435547,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "departure",
+          "x": 227.9040069580078,
+          "y": 597.7297973632812,
+          "width": 87.86701965332031,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "room",
+          "x": 124.8499984741211,
+          "y": 617.77978515625,
+          "width": 99.81005096435547,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "price",
+          "x": 161.5500030517578,
+          "y": 637.829833984375,
+          "width": 71.83804321289062,
+          "height": 14,
+          "kind": "line"
+        },
+        {
+          "field": "guestCount",
+          "x": 143.75,
+          "y": 657.8797607421875,
+          "width": 87.82205200195312,
+          "height": 14,
+          "kind": "line"
+        }
+      ],
+      "source": "ZAMELDOWANIE - Karta Gościa z akceptacją regulaminu i rodo DEU_104039.docx"
+    }
+  },
+  "info": {
+    "deu": {
+      "standard": {
+        "paragraphs": [
+          "Um Ihren Aufenthalt in der Villa der Entdecker zu erleichtern...",
+          "Zimmer befindet sich auf:   ERDGESCHOSS,   I. STOCK,   II. STOCK",
+          "FRÜHSTÜCK: von 8:00 bis 10:00 Uhr    GESCHOSS:  –1",
+          "Das Frühstück kann für 65 PLN/Erwachsener, 45 PLN/Kind erworben werden",
+          "ABENDESSEN: 16:00 - 18:00      GESCHOSS:  –1",
+          "Täglich an der Rezeption bis 11:00 Uhr buchbar",
+          "Preis: 95 PLN/Erwachsener, 60PLN/Kind;  Abendmenü: an der Tafel an der Rezeption",
+          "Am Tag der Abreise müssen Sie bis 11:00 Uhr auschecken",
+          "Kurtaxe, zahlbar in bar an der Rezeption am Tag der Abreise – 3,40 PLN / Tag / Person",
+          "CAFFEE SHOP UND BAR: von 11:00 Uhr bis 22:00 Uhr  GESCHOSS:   0",
+          "RESTAURANT:         GESCHOSS:   0\nInformationen über die Öffnungszeiten an der Rezeption",
+          "SAUNA: 16:00 – 22:00       GESCHOSS:  –1",
+          "Registrierung: an der Hotelrezeption;   1 Stunde / Tag – kostenlos",
+          "Reinigung / Wechsel von Handtüchern oder Bettwäsche – taglich bis 15 Uhr\nWenn Sie nicht möchten, dass Ihr Zimmer gereinigt wird, hängen Sie bitte ein \"Bitte nicht stören\"-Schild an die Tür",
+          "WLAN–Name – WillaOdkrywcow, Passwort: willa2015",
+          "Genießen Sie Ihren Aufenthalt – wünschen Ihnen die Explorer"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI OBCOJĘZYCZNYCH [DEU]_104031.docx"
+      }
+    },
+    "cze": {
+      "standard": {
+        "paragraphs": [
+          "Abychom vám pobyt ve Vile Odkrywców co nejvíce usnadnili…",
+          "Váš pokoj se nachází v:  PŘÍZEMÍ,  I. PATŘE, II. PATŘE",
+          "SNÍDANĚ: od 8:00 do 10:00",
+          "Možnost dokoupit snídaně za cenu 65 PLN za dospělou osobu, 45 PLN za dítě",
+          "VEČEŘE: od 16:00 do 18:00",
+          "Lze si objednat každý den na recepci do 11:00\nCena: 95 PLN za dospělou osobu, 60 PLN za dítě; nabídka večeře: na tabuli u recepce",
+          "V den odjezdu je třeba pokoj uvolnit do 11:00",
+          "Místní poplatek se hradí v hotovosti na recepci v den odjezdu – 3,40 PLN za den a osobu",
+          "RESTAURACE je otevřena od čtvrtka do pondělí od 13:00 do 21:00",
+          "(poslední objednávky přijímáme do 20:30)",
+          "KAVÁRNA A BAR: od 11:00 do 22:00",
+          "SAUNA: od 16:00 do 22:00     \nRezervace: na hotelové recepci; 1 hodina/den – zdarma",
+          "Župan: 25 PLN / 1 ks na celý pobyt",
+          "Úklid pokoje – každý den do 15:00",
+          "Pokud si nepřejete úklid, vyvěste prosím na dveře cedulku „Nerušit”",
+          "ÚROVEŇ:  –1",
+          "ÚROVEŇ:  0",
+          "Wi–Fi „WillaOdkrywcow”, heslo: willa2015",
+          "Přejí vám příjemný pobyt Odkrywcy"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI [CZE]_104029.docx"
+      },
+      "no-restaurant": {
+        "paragraphs": [
+          "Abychom vám pobyt ve Vile Odkrywców co nejvíce usnadnili…",
+          "Váš pokoj se nachází v:  PŘÍZEMÍ,  I. PATŘE, II. PATŘE",
+          "SNÍDANĚ: od 8:00 do 10:00",
+          "Možnost dokoupit snídaně za cenu 65 PLN za dospělou osobu, 45 PLN za dítě",
+          "V den odjezdu je třeba pokoj uvolnit do 11:00",
+          "Místní poplatek se hradí v hotovosti na recepci v den odjezdu – 3,40 PLN za den a osobu",
+          "RESTAURACE je otevřena od čtvrtka do pondělí od 13:00 do 21:00",
+          "(poslední objednávky přijímáme do 20:30)",
+          "KAVÁRNA A BAR: od 11:00 do 22:00",
+          "SAUNA: od 16:00 do 22:00     \nRezervace: na hotelové recepci; 1 hodina/den – zdarma",
+          "Župan: 25 PLN / 1 ks na celý pobyt",
+          "Úklid pokoje – každý den do 15:00",
+          "Pokud si nepřejete úklid, vyvěste prosím na dveře cedulku „Nerušit”",
+          "ÚROVEŇ:  –1",
+          "ÚROVEŇ:  0",
+          "Wi–Fi „WillaOdkrywcow”, heslo: willa2015",
+          "Přejí vám příjemný pobyt Odkrywcy"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI [CZE] - BEZ OBIADOKOLACJI I RESTAURACJI_104025.docx"
+      },
+      "no-dinner": {
+        "paragraphs": [
+          "Abychom vám pobyt ve Vile Odkrywców co nejvíce usnadnili…",
+          "Váš pokoj se nachází v:  PŘÍZEMÍ,  I. PATŘE, II. PATŘE",
+          "SNÍDANĚ: od 8:00 do 10:00",
+          "Možnost dokoupit snídaně za cenu 65 PLN za dospělou osobu, 45 PLN za dítě",
+          "V den odjezdu je třeba pokoj uvolnit do 11:00",
+          "Místní poplatek se hradí v hotovosti na recepci v den odjezdu – 3,40 PLN za den a osobu",
+          "RESTAURACE je otevřena od čtvrtka do pondělí od 13:00 do 21:00",
+          "(poslední objednávky přijímáme do 20:30)",
+          "KAVÁRNA A BAR: od 11:00 do 22:00",
+          "SAUNA: od 16:00 do 22:00     \nRezervace: na hotelové recepci; 1 hodina/den – zdarma",
+          "Župan: 25 PLN / 1 ks na celý pobyt",
+          "Úklid pokoje – každý den do 15:00",
+          "Pokud si nepřejete úklid, vyvěste prosím na dveře cedulku „Nerušit”",
+          "ÚROVEŇ:  –1",
+          "ÚROVEŇ:  0",
+          "Wi–Fi „WillaOdkrywcow”, heslo: willa2015",
+          "Přejí vám příjemný pobyt Odkrywcy"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI [CZE] - BEZ OBIADOKOLACJI_104029.docx"
+      }
+    },
+    "pl": {
+      "no-restaurant": {
+        "paragraphs": [
+          "Aby ułatwić Państwu pobyt w Willi Odkrywców…",
+          "Twój pokój znajduje się na:  PARTERZE,  I PIĘTRZE, II PIĘTRZE",
+          "ŚNIADANIE: w godzinach 8:00 – 10:00",
+          "Możliwość dokupienia śniadań w cenie 65 zł/os. dorosła, 45 zł/dziecko",
+          "W dniu wyjazdu pokój należy opuścić do godz. 11:00",
+          "Opłata miejscowa płatna gotówką w Recepcji w dniu wyjazdu – 3,40 zł / doba / osoba",
+          "KAWIARNIA I BAR: w godzinach 11:00 – 22:00",
+          "Po godz. 22:00 zapraszamy na poziom –1, aby nie przeszkadzać innym Gościom. Zamówienia z baru przyjmujemy cały czas.",
+          "SAUNA: w godzinach 16:00 – 22:00     \nZapisy: w Recepcji hotelowej;  1 godzina / dzień – bezpłatnie",
+          "Szlafrok: 25 zł / 1 szt. na cały pobyt",
+          "Sprzątanie pokoju – codziennie do godz. 15:00",
+          "Jeżeli nie życzą sobie Państwo sprzątania, prosimy o wywieszenie na drzwiach tabliczki „Nie przeszkadzać”",
+          "POZIOM:  –1",
+          "POZIOM:  0",
+          "POZIOM: –1",
+          "Wi–Fi „WillaOdkrywcow”, hasło: willa2015",
+          "Przyjemnego pobytu życzą Odkrywcy"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI [PL] - BEZ OBIADOKOLACJI I RESTAURACJI_104029.docx"
+      },
+      "no-dinner": {
+        "paragraphs": [
+          "Aby ułatwić Państwu pobyt w Willi Odkrywców…",
+          "Twój pokój znajduje się na:  PARTERZE,  I PIĘTRZE, II PIĘTRZE",
+          "ŚNIADANIE: w godzinach 8:00 – 10:00",
+          "Możliwość dokupienia śniadań w cenie 65 zł/os. dorosła, 45 zł/dziecko",
+          "W dniu wyjazdu pokój należy opuścić do godz. 11:00",
+          "Opłata miejscowa płatna gotówką w Recepcji w dniu wyjazdu – 3,40 zł / doba / osoba",
+          "RESTAURACJA czynna od czwartku do poniedziałku w godz. 13:00 – 21:00 (ostatnie zamówienia przyjmujemy do 20:30)",
+          "KAWIARNIA I BAR: w godzinach 11:00 – 22:00",
+          "SAUNA: w godzinach 16:00 – 22:00     \nZapisy: w Recepcji hotelowej;  1 godzina / dzień – bezpłatnie",
+          "Szlafrok: 25 zł / 1 szt. na cały pobyt",
+          "Sprzątanie pokoju – codziennie do godz. 15:00",
+          "Jeżeli nie życzą sobie Państwo sprzątania, prosimy o wywieszenie na drzwiach tabliczki „Nie przeszkadzać”",
+          "POZIOM:  –1",
+          "POZIOM:  0",
+          "POZIOM: –1",
+          "Wi–Fi „WillaOdkrywcow”, hasło: willa2015",
+          "Przyjemnego pobytu życzą Odkrywcy"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI [PL] - BEZ OBIADOKOLACJI_104030.docx"
+      },
+      "standard": {
+        "paragraphs": [
+          "Aby ułatwić Państwu pobyt w Willi Odkrywców…",
+          "Twój pokój znajduje się na:  PARTERZE,  I PIĘTRZE, II PIĘTRZE",
+          "ŚNIADANIE: w godzinach 8:00 – 10:00",
+          "Możliwość dokupienia śniadań w cenie 65 zł/os. dorosła, 45 zł/dziecko",
+          "OBIADOKOLACJA: w godzinach 16:00 – 18:00   \nMożliwość domówienia każdego dnia w Recepcji do godz. 11:00 \nCena: 95 zł/os. dorosła, 60 zł/dziecko; menu obiadokolacji: na tablicy przy Recepcji",
+          "W dniu wyjazdu pokój należy opuścić do godz. 11:00",
+          "Opłata miejscowa płatna gotówką w Recepcji w dniu wyjazdu – 3,40 zł / doba / osoba",
+          "RESTAURACJA czynna od czwartku do poniedziałku w godz. 13:00 – 21:00 (ostatnie zamówienia przyjmujemy do 20:30)",
+          "KAWIARNIA I BAR: w godzinach 11:00 – 22:00",
+          "SAUNA: w godzinach 16:00 – 22:00     \nZapisy: w Recepcji hotelowej;  1 godzina / dzień – bezpłatnie",
+          "Szlafrok: 25 zł / 1 szt. na cały pobyt",
+          "Sprzątanie pokoju – codziennie do godz. 15:00",
+          "Jeżeli nie życzą sobie Państwo sprzątania, prosimy o wywieszenie na drzwiach tabliczki „Nie przeszkadzać”",
+          "POZIOM:  –1",
+          "POZIOM:  0",
+          "POZIOM: –1",
+          "Wi–Fi „WillaOdkrywcow”, hasło: willa2015",
+          "Przyjemnego pobytu życzą Odkrywcy"
+        ],
+        "source": "ZAMELDOWANIE - INFORMACJE DLA GOŚCI [PL]_104030.docx"
+      }
+    }
+  },
+  "privacy": {
+    "eng": {
+      "paragraphs": [
+        "COMPLETE INFORMATION ABOUT PERSONAL DATA",
+        "The Willa Odkrywców Hotel*** is the Administrator of personal data of the hotel Guests. The hotel is located in Szklarska Poręba at ul. Okrzei 25, 58-580 Szklarska Poręba. It is owned by ARTCOM Artur Kluszczyński with its registered office in Wrocław at ul. Wałbrzyska 21, 52-314 Wrocław, NIP [Tax Identification Number] PL8942295494.",
+        "Purposes of the processing of personal data",
+        "The purpose of the processing of personal data by the Hotel*** Willa Odkrywców is to conclude and implement an agreement for the provision of hotel services. Other purposes of the processing of personal data processing by the Hotel are:",
+        "to submit claims by the Hotel in terms of the damage suffered by the Hotel caused by the Guest or defending against claims of the Guest submitted against the Hotel,",
+        "to document and implement the service for tax purposes,",
+        "to provide highest quality services for hotel Guests.",
+        "If the Guest has agreed to the processing of personal data for marketing purposes, the Hotel shall process his/her personal data, i.e. to send the Guests marketing information and offers about the products and services of the Hotel. \nIf the Guest has agreed, the Hotel shall provide opinion providers with the e-mail address specified by the Guest to obtain from the Guest an opinion about the Willa Odkrywców Hotel ***, and post it on the website of the portal. In addition, the Hotel shall collect and process personal data of the Guests using hotel monitoring to ensure safety of the hotel Guests and other people staying at the Hotel.",
+        "Legal basics of the processing of personal data",
+        "An agreement for the provision of hotel services shall be the legal basis for the processing of personal data of the Guest obtained by the Hotel.",
+        "The consent of the Guest shall be the legal basis for the processing of his/her personal data of the Guest used for marketing purposes. The Hotel shall inform that the Guest shall have the right to withdraw his/her consent at any time. Such situation shall not impact on the validity of the processing occurred to withdrawal of the consent. Protection of the vital interests of other individuals and the justified purpose of the administrator shall be the legal basis for the processing of personal data of the Guest by monitoring.",
+        "A justified purpose of the administrator to provide the highest quality services for the hotel Guests shall be the legal basis for the processing of personal data of the Guest.",
+        "Entities entitled to obtain personal data. Personal data shall be provided by the Hotel to the following categories of entities:",
+        "companies providing the Hotel with IT services and IT software,",
+        "accounting companies providing the Hotel with accounting services,",
+        "transport and taxi companies if the hotel Guest orders transport or courier delivery service,",
+        "legal companies providing the Hotel with legal advisory and representation services,",
+        "companies providing the Hotel with image creating services and opinions about the Willa Odkrywców Hotel***.",
+        "Time frame of the processing of personal data.",
+        "Personal data:",
+        "obtained in connection with a concluded agreement for the provision of hotel services shall be processed with the prescription period of tax claims or civil law claims of the Hotel or the Guest, whatever occurs later,",
+        "obtained based on the consent shall be processed for the period of validity of this consent,",
+        "obtained based on monitoring shall be processed for 30 days from the recording date, and then shall be permanently deleted.",
+        "Rights of the Guest within the processing of personal data. Each Guest shall have the right to access, correct, delete or limit processing of his/her personal data. In addition, each Guest shall have the right to object to the processing. Access to sensitive data shall be possible only at the registered office of the Hotel. In addition, the Hotel shall provide access to its e-mail address willa@willaodkrywcow.pl to contact with the Hotel in terms of personal data.",
+        "Possibility to submit a complaint regarding the processing of personal data. Each Guest shall have the right to submit a complaint to the supervisory body, i.e. the General Inspector of Personal Data Protection, ul. Stawki 2, 00-193 Warszawa.",
+        "Provision of personal data outside the EEA (European Economic Area). The Hotel shall not intend to provide personal data outside the EEA.",
+        "Is the provision of personal data a contractual or statutory requirement? Provision of personal data within full name and address of residence is a requirement to conclude an agreement for the provision of hotel services. Failure to provide personal data shall prevent the Hotel from concluding an agreement for the provision of hotel services.",
+        "Automated decisions, including profiling. Personal data shall not be the basis to make automated decisions, including profiling, by the Hotel."
+      ],
+      "source": "ZAMELDOWANIE - Pełna  informacja o danych osobowych - check in ENG_104056.docx"
+    },
+    "deu": {
+      "paragraphs": [
+        "Vollständige Information zur personenbezogenen Daten",
+        "Der Verwalter von den Personaldaten der Hotelgäste ist das Hotel*** Willa Odkrywców in Szklarska Poręba, ul. Okrzei 25, 58-580 Szklarska Poręba, das der Firma ARTCOM Artur Kluszczyński, mit dem Sitz in Wrocław, Wałbrzyska 21, 52-314 Wrocław, Steueridentifikationsnummer NIP: PL8942295494 gehört.",
+        "Ziele der Verarbeitung von den personenbezogenen Daten",
+        "Das Ziel, zu dem das Hotel die Personaldaten verarbeitet ist der Abschluss und die Realisierung von dem Vertrag über die Hoteldienstleistungen. Außerdem wird zum Ziel der Verarbeitung von personenbezogenen Daten durch das Hotel:",
+        "Geltendmachung von Ansprüchen des Hotels, im Zusammenhang mit dem, durch das Hotel erlittenen Schaden, der von  dem Gast verursacht wurde, oder die Verteidigung gegen die Ansprüche eines Gastes, dem Hotel gegenüber,",
+        "Dokumentieren der Ausführung von der Dienstleistung \nzu Steuerzwecken,",
+        "Gewährleistung von der höchsten Qualität der Dienstleistungen \nfür die Hotelgäste.",
+        "Im Falle, wenn der Gast der Datenverarbeitung für Marketingzwecke zugestimmt hat, verarbeitet das Hotel die Personalangaben zu diesem Zweck, d.h. zum Zwecke der Sendung an die Hotelgäste der Marketinginformationen und Angebote seiner Produkte und Dienstleistungen.",
+        "Im Falle, wenn der Gast dem zugestimmt hat, kann das Hotel, die von dem Gast angegebene E-Mail-Adresse an die Meinungsbildner übermitteln, um von dem Gast seine Meinung über das Hotel, aufgrund seines Aufenthalts, zu erhalten.",
+        "Übrigens werden durch das Hotel die Personaldaten von den Gästen verarbeitet, die von der Hotelüberwachung gespeichert wurden, um den Gästen und anderen Personen, die sich auf dem Gebiet des Objekts befinden, Sicherheit zu gewährleisten.",
+        "Rechtsgrundlagen der Verarbeitung von Personaldaten",
+        "Die Rechtsgrundlage für die Verarbeitung von Personaldaten der Gäste, die durch das Hotel gewonnen wurden,  bildet der Vertrag über die Hoteldienstleistungen. Die Rechtsgrundlage für die Verarbeitung der Personaldaten von dem Hotelgast, die für Marketingzwecke verwendet werden bildet die Zustimmung von dem Hotelgast.",
+        "Das Hotel informiert, dass die Zustimmung in jedem Moment zurückgezogen werden kann. Die Rücknahme der Genehmigung hat keinen Einfluss auf die Gültigkeit der Verarbeitung, die vor der Rücknahme der Genehmigung erfolgte. Die Rechtsgrundlage der Verarbeitung von den Personaldaten eines Hotelgastes durch die  Hotelüberwachung ist sowohl der Schutz von lebenswichtigen Interessen anderer, natürlicher Personen, als auch gerechtfertigtes Ziel des Verwalters.",
+        "Die Rechtsgrundlage für die Verarbeitung von Personalangaben des Hotelgasts zum Zwecke der Sicherstellung von der höchsten Qualität bildet das gerechtfertigte Ziel des Verwalters.",
+        "Wem können die personenbezogenen Daten übermittelt werden",
+        "Das Hotel übermittelt die Personalangaben folgenden Kategorien von Einrichtungen:",
+        "den Firmen, die IT- Unterstützung des Hotels bilden  und diesen, die Software liefern,",
+        "den Buchhaltungsfirmen, die Buchhaltungsleistungen erbringen,",
+        "den Transportfirmen und Taxifahrern, im Falle der Bestellung von dem Gast eines Transports oder Kurierdienstes,",
+        "den Anwaltskanzleien, die Dienstleistungen der rechtlichen Beratung  und der  rechtlichen Vertretung erbringen,",
+        "den Firmen, die Dienstleistungen im Bereich der positiven Imagepflege erbringen und  für guten Ruf des Hotels *** Willa Odkrywców sorgen.",
+        "Dauer der Verarbeitung von personenbezogenen Angaben",
+        "Personaldaten:",
+        "die im Zusammenhang mit dem geschlossenen Vertrag über Hoteldienstleistungen erworben wurden, werden bis zum Ablauf der Verjährungsfrist von Steueransprüchen oder zivilrechtlichen Ansprüchen des Hotels oder des Gastes verarbeitet, in Abhängigkeit davon, welche von diesen später vorkommt,",
+        "die aufgrund der Zustimmung erworben wurden, werden in der Gültigkeitsdauer der Zustimmung verarbeitet,",
+        "die, im Zusammenhang mit der Überwachung erworben wurden, werden 30 Tage nach ihrer Speicherung  verarbeitet, dann werden sie dauerhaft gelöscht.",
+        "Zeitraum der Verarbeitung von personenbezogenen Daten",
+        "Jeder Gast hat Recht auf Zugang zu den Personendaten, ihre Berichtigung, Löschung oder Begrenzung der Verarbeitung. Außerdem hat jeder Gast Recht auf Wiederspruch gegen die Verarbeitung. Zugang zu den sensiblen Daten ist im Hotel möglich. Übrigens stellt das Hotel die E-Mail-Adresse willa@willaodkrywcow.pl zur Verfügung, mit deren Hilfe man in Sache der Verarbeitung von personenbezogenen Daten Kontakt aufnehmen kann.",
+        "Möglichkeit der Klageerhebung im Zusammenhang mit der Verarbeitung von Personaldaten. Jeder Gast hat Recht, die Klage an die Aufsichtsbehörde, die der Generalinspektor für den Schutz personenbezogener Daten, Stawki 2, 00-193 Warszawa ist, zu erheben.",
+        "Übermittlung von personenbezogenen Daten über den Europäischen Wirtschaftsraum hinaus. Das Hotel hat keine Absicht, die personenbezogenen Daten über den Europäischen Wirtschaftsraum hinaus zu übermitteln.",
+        "Ist die Angabe von Personaldaten eine vertragliche oder gesetzliche Anforderung? Die Angabe von Personaldaten im Bereich des Vornamens, Namens und der Adresse ist die Anforderung, die mit dem Vertragsabschluss über Hoteldienstleistungen verbunden ist. Das Fehlen von den Personaldaten macht dem Hotel den Vertragsabschluss unmöglich.",
+        "Automatisierte Entscheidungen, darunter Profiling Das Hotel trifft keine automatisierten Entscheidungen aufgrund von personenbezogenen Daten, es macht auch kein Profiling."
+      ],
+      "source": "ZAMELDOWANIE - Pełna  informacja o danych osobowych - check in DEU_104051.docx"
+    },
+    "cze": {
+      "paragraphs": [
+        "ÚPLNÉ INFORMACE O OSOBNÍCH ÚDAJECH",
+        "Správcem osobních údajů hotelových hostů je Hotel*** Willa Odkrywców ve Szklarské Porébě, ul. Okrzei 25, 58-580 Szklarska Poręba, patřící společnosti ARTCOM Artur Kluszczyński se sídlem ve Vratislavi, ul. Wałbrzyska 21, 52-314 Vratislav, NIP PL8942295494.",
+        "Účely zpracování osobních údajů",
+        "Účelem, pro který Hotel*** Willa Odkrywców zpracovává osobní údaje, je uzavření a plnění smlouvy o poskytování hotelových služeb. Kromě toho jsou účely zpracování osobních údajů ze strany hotelu následující:",
+        "•    uplatňování případných nároků ze strany hotelu v souvislosti se škodou, kterou hotel utrpěl a která byla způsobena hostem, nebo  obrana proti nárokům hosta vůči hotelu,",
+        "•    dokumentace poskytnutí služby pro daňové účely,",
+        "•    zajištění nejvyšší kvality služeb pro hotelové hosty.",
+        "V případě, že host vyjádřil souhlas se zpracováním osobních údajů pro marketingové účely, hotel zpracovává osobní údaje za tímto účelem, tj. za účelem zasílání marketingových informací a nabídek o svých produktech a službách hostům.",
+        "V případě, že host vyjádřil souhlas, může hotel předat e-mailovou adresu poskytnutou hostem portálům pro sběr recenzí za účelem získání recenze od hosta o hotelu*** Willa Odkrywców na základě jeho vlastního pobytu, která bude zveřejněna na webových stránkách takového portálu. Kromě toho hotel zpracovává osobní údaje hostů shromážděné hotelovým kamerovým systémem za účelem zajištění bezpečnosti hotelových hostů a dalších osob nacházejících se v areálu hotelu.",
+        "Právní základ pro zpracování osobních údajů",
+        "Právním základem pro zpracování osobních údajů hosta získaných hotelem je smlouva o poskytování hotelových služeb.",
+        "Právním základem pro zpracování osobních údajů hosta využívaných pro marketingové účely je souhlas hosta. Hotel informuje, že souhlas lze kdykoli odvolat. Odvolání souhlasu nemá vliv na platnost zpracování, ke kterému došlo před odvoláním souhlasu. Právním základem pro zpracování osobních údajů hosta prostřednictvím kamerového systému je ochrana životně důležitých zájmů jiných fyzických osob, jakož i oprávněný účel správce.",
+        "Právním základem pro zpracování osobních údajů hosta za účelem zajištění nejvyšší kvality služeb pro hotelové hosty je oprávněný zájem správce.",
+        "Komu mohou být osobní údaje předány",
+        "Hotel předává osobní údaje následujícím kategoriím subjektů:",
+        "•    společnostem poskytujícím hotelovi služby v oblasti IT podpory a dodávajícím softwarové vybavení,",
+        "•    účetním firmám poskytujícím účetní služby,",
+        "•    dopravním a taxislužebním společnostem v případě, že si host objedná dopravu nebo kurýrní zásilku,",
+        "•    právnickým firmám (advokátním kancelářím) poskytujícím právní poradenství a zastupování v soudních sporech,",
+        "•    firmám poskytujícím služby v oblasti budování image a reputace hotelu*** Willa Odkrywców.",
+        "Doba zpracování osobních údajů",
+        "Osobní údaje:",
+        "•    získané v souvislosti s uzavřenou smlouvou o poskytování hotelových služeb budou zpracovávány po dobu promlčení daňových nebo občanskoprávních nároků hotelu nebo hosta, v závislosti na tom, která z těchto událostí nastane později,",
+        "•    získané na základě souhlasu budou zpracovávány po dobu platnosti tohoto souhlasu,",
+        "•    získané v souvislosti s monitorováním budou zpracovávány po dobu 30 dnů od data zaznamenání a poté budou trvale odstraněny.",
+        "Práva hosta v souvislosti se zpracováním osobních údajů",
+        "Každý host má právo na přístup k osobním údajům, jejich opravu, výmaz nebo omezení zpracování. Kromě toho má každý host právo vznést námitku proti zpracování. Přístup k citlivým údajům je možný v sídle hotelu. Hotel dále poskytuje e-mailovou adresu willa@willaodkrywcow.pl, na kterou se lze obrátit v záležitostech týkajících se osobních údajů.",
+        "Možnost podat stížnost v souvislosti se zpracováním osobních údajů. Každý host má právo podat stížnost u dozorového úřadu, kterým je Generální inspektor pro ochranu osobních údajů, ul. Stawki 2, 00-193 Varšava.",
+        "Předávání osobních údajů mimo EHP (Evropský hospodářský prostor). Hotel nemá v úmyslu předávat osobní údaje mimo EHP.",
+        "Je poskytnutí osobních údajů smluvní nebo zákonnou povinností?",
+        "Poskytnutí osobních údajů v rozsahu jména a příjmení a adresy bydliště je podmínkou pro uzavření smlouvy o hotelových službách. Neposkytnutí osobních údajů znemožní hotelu uzavřít smlouvu o hotelových službách.",
+        "Automatizovaná rozhodnutí, včetně profilování. Hotel nepřijímá automatizovaná rozhodnutí na základě osobních údajů, včetně profilování."
+      ],
+      "source": "ZAMELDOWANIE - Pełna  informacja o danych osobowych - check in CZ_104048.docx"
+    }
+  },
+  "notes": [
+    "Karty meldunkowe przygotowano z dostarczonych dokumentów. Układ i tekst zachowano, zmniejszając czcionkę, aby każda karta mieściła się na jednej stronie A4.",
+    "Informacje dla gości i klauzule danych osobowych mają uproszczony układ; powtarzające się kopie usunięto. Tekst pochodzi z dostarczonych plików.",
+    "Brak informacji dla gości po angielsku i pełnej klauzuli danych osobowych po polsku.",
+    "Czeski wariant bez restauracji w źródle nadal zawiera informację o restauracji. Treści nie zmieniono; sprawdź ją przed użyciem."
+  ]
+}
